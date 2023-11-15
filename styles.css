@@ -24,3 +24,8 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.header > h4{
+    font-size: 24px;
+    color: #F9FAF8;
+}
