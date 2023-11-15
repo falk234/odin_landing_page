@@ -24,7 +24,8 @@ body{
 }
 
 .header-links,
-.headline_left > p{
+.headline_left > p,
+.call_to_action p{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -61,3 +62,6 @@ h2{
     color: #1F2937;
 }
 
+h3{
+    color: white;
+}
