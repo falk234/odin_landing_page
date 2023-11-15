@@ -25,6 +25,7 @@ body{
     color: #E5E7EB;
 }
 
+/* ggf. nur h4/h1 verwenden */
 .header > h4{
     font-size: 24px;
     color: #F9FAF8;
@@ -48,4 +49,10 @@ button{
 .call_to_action > button{
     border-color: #F9FAF8;
     border-style: solid;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
