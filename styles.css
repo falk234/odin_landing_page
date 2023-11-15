@@ -66,3 +66,11 @@ h3,
 .footer{
     color: white;
 }
+
+.picture{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    outline: 5px solid #3882F6;
+    border-radius: 5px;
+}
