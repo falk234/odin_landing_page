@@ -9,7 +9,13 @@ body{
 
 .headline{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 200px;
 }
+
 
 .information{
     background-color: white;
@@ -44,6 +50,7 @@ body{
 .header > h4{
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
 }
 
 button,
@@ -59,6 +66,7 @@ button{
 
 .headline_left > button{
     border: none;
+    margin-top: 10px;
 }
 
 .call_to_action > button{
@@ -94,6 +102,10 @@ h3,
     background-color: gray;
     text-align: center;
     color: white;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-links ul{
@@ -114,6 +126,7 @@ h3,
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 200px 0 200px;
 }
 
 p,
@@ -121,8 +134,8 @@ h3{
     margin: 0;
 }
 
-.header,
-.headline,
+/* .header, */
+/* .headline, */
 .information,
 .quote,
 .call_to_action,
