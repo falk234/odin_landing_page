@@ -34,3 +34,18 @@ button,
 .call_to_action{
     background-color: #3882F6;
 }
+
+button{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px ;
+}
+
+.headline_left > button{
+    border: none;
+}
+
+.call_to_action > button{
+    border-color: #F9FAF8;
+    border-style: solid;
+}
