@@ -82,3 +82,12 @@ h3,
     text-align: center;
     color: white;
 }
+
+.header-links ul{
+    list-style-type: none;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
