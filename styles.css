@@ -27,6 +27,7 @@ body{
     font-style: italic;
     font-weight: light;
     color: #1F2937;
+    padding: 100px 350px 75px 350px;
 }
 
 .call_to_action{
@@ -138,7 +139,7 @@ h3{
 /* .header, */
 /* .headline, */
 .information,
-.quote,
+/* .quote, */
 .call_to_action,
 .footer{
     padding: 0 200px;
