@@ -85,9 +85,18 @@ h3,
 
 .header-links ul{
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 .header-links a{
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
