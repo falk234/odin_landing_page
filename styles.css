@@ -81,17 +81,17 @@ h3,
 }
 
 .picture{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     background-color: rgb(255, 255, 255);
     outline: 5px solid #3882F6;
     border-radius: 5px;
 }
 
 .headline_placeholder{
-    height: 300px;
-    width: 900px;
-    background-color: grey;
+    height: 230px;
+    width: 525px;
+    background-color: gray;
     text-align: center;
     color: white;
 }
