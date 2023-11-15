@@ -13,3 +13,14 @@ body{
 .call_to_action{
     background-color: white;
 }
+
+.headline_left > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.header-links,
+.headline_left > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
