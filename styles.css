@@ -120,3 +120,12 @@ p,
 h3{
     margin: 0;
 }
+
+.header,
+.headline,
+.information,
+.quote,
+.call_to_action,
+.footer{
+    padding: 0 200px;
+}
