@@ -1,3 +1,15 @@
-/* p{
-    color: red;
-} */
+body{
+    background-color: #1F2937;
+}
+
+.information{
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call_to_action{
+    background-color: white;
+}
