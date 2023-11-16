@@ -1,7 +1,7 @@
 /* ToDo:
 - Schriftart setzen (/)
 - ggf. flexible Ausrichtung vertikal, bzgl 100% Bildschirm, wenn mgl. (/)
-- Shortcuts für gemeinsame Werte erstellen*/
+- Shortcuts für gemeinsame Werte erstellen => aktuell nicht notwendig (/) */
 
 
 
@@ -74,7 +74,7 @@ button{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
     margin: 0;
     padding: 0;
 }
