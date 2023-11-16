@@ -167,21 +167,22 @@ button{
 }
 
 .call_to_action{
-    background-color: #1F2937;
+    background-color: #3882F6;
     display: flex;
     margin: 100px 200px;
     width: 900px;
     height: 150px;
+    border-radius: 15px;
     justify-content:space-around;
     align-items: center;
     flex-shrink: 0;
 }
 
+/* ???? */
 .call_to_action p{
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #3882F6;
-    border-radius: 15px;
+    
 }
 
 .call_to_action > button{
