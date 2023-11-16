@@ -45,7 +45,7 @@ button{
     border-radius: 8px ;
     flex-shrink: 0;
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 /* Sections */
@@ -178,7 +178,6 @@ button{
     flex-shrink: 0;
 }
 
-/* ???? */
 .call_to_action p{
     font-size: 18px;
     color: #E5E7EB;
