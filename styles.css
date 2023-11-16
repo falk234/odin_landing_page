@@ -158,12 +158,18 @@ h3{
 
 /* .header, */
 /* .headline, */
-.information,
 /* .quote, */
 /* .call_to_action, */
-.footer{
+/* .footer{ */
+.information{
     padding: 0 200px;
 }
+
+.footer{
+    text-align: center;
+    padding: 30px 200px;
+}
+
 
 .illustration-box{
     display: flex;
