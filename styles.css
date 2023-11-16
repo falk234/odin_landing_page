@@ -45,6 +45,7 @@ body{
     height: 150px;
     justify-content:space-around;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .headline_left > h1{
@@ -77,6 +78,7 @@ button{
     color: white;
     padding: 5px 15px;
     border-radius: 8px ;
+    flex-shrink: 0;
 }
 
 .headline_left > button{
