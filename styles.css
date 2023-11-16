@@ -5,8 +5,7 @@
 
 body{
     margin: 0;
-/* Check for areas without set background */
-background-color: aqua;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* MISC */
@@ -189,15 +188,7 @@ button{
     border-style: solid;
 }
 
-/* .header-links, */
-/* .headline_left > p, */
-/* .call_to_action p{
-    font-size: 18px;
-    color: #E5E7EB;
-} */
-
 /* === footer === */
-
 
 .footer{
     color: white;
@@ -206,4 +197,19 @@ button{
     padding: 30px 200px;
 }
 
+/* === shortcuts === */
+/* .header-links, */
+/* .headline_left > p, */
+/* .call_to_action p{
+    font-size: 18px;
+    color: #E5E7EB;
+} */
+
+/* === Troubleshooting === */
+
+/* Check for areas without set background */
+
+/* body{
+    background-color: aqua;
+} */
 
