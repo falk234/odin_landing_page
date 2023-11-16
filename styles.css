@@ -1,11 +1,85 @@
+/* ToDo:
+- Schriftart setzen
+- ggf. flexible Ausrichtung vertikal, bzgl 100% Bildschirm 
+- Shortcuts für gemeinsame Werte erstellen*/
+
 body{
-    background-color: aqua;
+    margin: 0;
+/* Check for areas without set background */
+background-color: aqua;
+}
+
+/* MISC */
+
+p{
     margin: 0;
 }
 
+/* Headings */
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    margin: 0;
+}
+
+h4{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+/* Buttons */
+
+button{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px ;
+    flex-shrink: 0;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+/* Sections */
+
+/* === header === */
+
 .header{
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px 0 200px;
 }
+
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* === headline === */
 
 .headline{
     background-color: #1F2937;
@@ -16,10 +90,63 @@ body{
     padding: 100px 200px;
 }
 
+.headline_left > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.headline_left > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headline_left > button{
+    border: none;
+    margin-top: 10px;
+}
+
+.headline_placeholder{
+    height: 230px;
+    width: 525px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === information === */
 
 .information{
     background-color: white;
+    padding: 0 200px;
 }
+
+.illustration-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 150px;}
+
+.illustration > p{
+    width: 150px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    outline: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+/* === quote === */
 
 .quote {
     background-color: #E5E7EB;
@@ -29,6 +156,8 @@ body{
     color: #1F2937;
     padding: 100px 350px 75px 350px;
 }
+
+/* === call_to_action === */
 
 .call_to_action-container{
     background-color: white;
@@ -48,42 +177,11 @@ body{
     flex-shrink: 0;
 }
 
-.headline_left > h1{
-    font-size: 48px;
-    color: #F9FAF8;
-    margin: 0;
-}
-
-.header-links,
-.headline_left > p,
 .call_to_action p{
     font-size: 18px;
     color: #E5E7EB;
-}
-
-/* ggf. nur h4/h1 verwenden */
-.header > h4{
-    font-size: 24px;
-    color: #F9FAF8;
-    margin: 0;
-}
-
-button,
-.call_to_action{
     background-color: #3882F6;
     border-radius: 15px;
-}
-
-button{
-    color: white;
-    padding: 5px 15px;
-    border-radius: 8px ;
-    flex-shrink: 0;
-}
-
-.headline_left > button{
-    border: none;
-    margin-top: 10px;
 }
 
 .call_to_action > button{
@@ -91,95 +189,21 @@ button{
     border-style: solid;
 }
 
-h2{
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    margin: 0;
-    padding: 35px 0;
-    text-align: center;
-}
+/* .header-links, */
+/* .headline_left > p, */
+/* .call_to_action p{
+    font-size: 18px;
+    color: #E5E7EB;
+} */
 
+/* === footer === */
 
-h3{
-    color: white;
-}
 
 .footer{
     color: white;
     background-color: #1F2937;
-}
-
-.picture{
-    height: 150px;
-    width: 150px;
-    background-color: rgb(255, 255, 255);
-    outline: 5px solid #3882F6;
-    border-radius: 5px;
-}
-
-.headline_placeholder{
-    height: 230px;
-    width: 525px;
-    background-color: gray;
-    text-align: center;
-    color: white;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-links ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-}
-
-.header-links a{
-    text-decoration: none;
-    color: #F9FAF8;
-}
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 200px 0 200px;
-}
-
-p,
-h3{
-    margin: 0;
-}
-
-/* .header, */
-/* .headline, */
-/* .quote, */
-/* .call_to_action, */
-/* .footer{ */
-.information{
-    padding: 0 200px;
-}
-
-.footer{
     text-align: center;
     padding: 30px 200px;
 }
 
 
-.illustration-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding-bottom: 150px;}
-
-.illustration > p{
-    width: 150px;
-    text-align: center;
-    margin-top: 15px;
-}
